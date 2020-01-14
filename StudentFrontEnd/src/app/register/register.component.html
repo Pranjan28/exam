@@ -1,0 +1,31 @@
+<form>
+    <div class="container">
+        <div class="form-group col-md-6">
+            <label for="Name">Name</label>
+            <input type="text" name="name" class="form-control" id="name" placeholder="First name" [(ngModel)]="name">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="Email" [(ngModel)]="email">
+        </div>
+
+        <div class="form-group">
+            <div class="form-group col-md-6">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" class="form-control" id="pass" placeholder="Password" [(ngModel)]="password">
+            </div>
+        </div>
+
+        <button type="submit" (click)="onSubmit()" class="btn btn-primary">Sign in</button>
+       
+    </div>
+    <!-- <div class="container">
+        <ul *ngFor="let emp of emplist">
+            <li>{{emp.id}}</li>
+            <li>{{emp.name}}</li>
+            <li>{{emp.email}}</li>
+            <li>{{emp.password}}</li>
+        </ul>
+    </div> -->
+
+</form>
