@@ -6,3 +6,4 @@ update student
 get student details
 ---------------------------------
 2nd que pan sakalcha hota tasach same aahe fakt employee chya jagi student tak
+que baghitla ka?reply kr
