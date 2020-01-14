@@ -4,3 +4,5 @@ majha prn 053 aahe
 get student to get all student list
 update student
 get student details
+---------------------------------
+2nd que pan sakalcha hota tasach same aahe fakt employee chya jagi student tak
