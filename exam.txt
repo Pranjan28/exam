@@ -1,2 +1,6 @@
 Hello good morning!
 majha prn 053 aahe
+1.student application using rest api using express framework
+get student to get all student list
+update student
+get student details
